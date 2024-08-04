@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Human Microbe Interaction</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+</head>
+<body>
+    <header id="header">
+        <h1>Human Microbe Interaction</h1>
+        <!-- <nav>
+            <ul>
+                <li><a href="#into">Home</a></li>
+                <li><a href="#sections">Sections</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav> -->
+    </header>
+
+    <section id="sections" class="content-section ">
+        <h2>Explore Microbe Interactions</h2>
+        <div class="cards">
+            <div class="card introductive" onclick="scrollToSection('gut-microbes')">
+                <div class="card-overlay"></div>
+                <img class="imag" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQva-7KlH0lwzW3qZYoRcWM9GR2MUDJnnqzuQ&s" alt="Gut Microbes" >
+                <h3>Gut Microbes</h3>
+                <p>Lactobacillus and more</p>
+            </div>
+            <div class="card introductive" onclick="scrollToSection('skin-microbes')">
+                <div class="card-overlay"></div>
+                <img class="imag" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwf-RpHZzB3J85YrfzleWJRGJMFR30AbhRheeBHehcuqNReEX2nhZPbXvuwVVprzzBeUQ&usqp=CAU" alt="Skin Microbes">
+                <h3>Skin Microbes</h3>
+                <p>Staphylococcus epidermidis</p>
+            </div>
+            <div class="card introductive" onclick="scrollToSection('oral-microbes')">
+                <div class="card-overlay"></div>
+                <img class="imag" src="https://media.istockphoto.com/id/1077228122/photo/bacteria-streptococcus-thermophilus.jpg?s=612x612&w=0&k=20&c=-8BQyPtCXZaC9_l5V0iAuZO_qe7AzVYxxo4h2i2xMcw=" alt="Oral Microbes">
+                <h3>Oral Microbes</h3>
+                <p>Streptococcus salivarius</p>
+            </div>
+            <div class="card introductive" onclick="scrollToSection('probiotics')">
+                <div class="card-overlay"></div>
+                <img class="imag" src="https://cdnintech.com/books/3145/1713433888-1614366396/cover.jpg" alt="Probiotics">
+                <h3>Probiotics</h3>
+                <p>Bifidobacterium, Lactobacillus</p>
+            </div>
+            <div class="card introductive" onclick="scrollToSection('bioremediation')">
+                <div class="card-overlay"></div>
+                <img class="imag" src="https://www.lifeder.com/wp-content/uploads/2018/11/Pseudomonas.jpg" alt="Bioremediation">
+                <h3>Bioremediation</h3>
+                <p>Pseudomonas putida</p>
+            </div> 
+            <div class="card introductive" onclick="scrollToSection('vaccines')">
+                <div class="card-overlay"></div>
+                <img class="imag"src="https://publichealth.jhu.edu/sites/default/files/styles/article_feature/public/2023-09/updated-covid-vaccine.jpg?h=6e972868&itok=FAFiEeof" alt="Vaccines">
+                <h3>Vaccines</h3>
+                <p>MMR and others</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="intro" class="content-section">
+    <h2>Introduction to Human-Microbe Interaction</h2>
+    <p>Microbes play a crucial role in human health and well-being. These interactions can be beneficial or harmful, affecting various aspects of our lives. Here’s an overview:</p>
+    <div class="cards">
+        <div class="card" onclick="scrollToSection('beneficial')">
+            <div class="card-overlay"></div>
+            <img src="https://t4.ftcdn.net/jpg/05/86/86/03/360_F_586860320_xiaGpk3yu6QZ5SgT0b7jIFMgePBdtKwg.jpg" alt="Beneficial Microbes">
+            <h3>Beneficial Microbes</h3>
+            <p>Explore how microbes contribute positively to our health.</p>
+        </div>
+        <div class="card" onclick="scrollToSection('harmful')">
+            <div class="card-overlay"></div>
+            <img src="https://t3.ftcdn.net/jpg/08/64/17/00/360_F_864170020_eYtSQsgZ1dYU7cp1MempuzrXtRTlmhI2.jpg" alt="Harmful Microbes">
+            <h3>Harmful Microbes</h3>
+            <p>Understand the negative impacts of microbes on our health.</p>
+        </div>
+    </div>
+</section>
+
+
+    <section id="beneficial" class="content-section">
+    <h2>Beneficial Microbes</h2>
+    <p>Microbes that positively affect human health include:</p>
+    <div class="cards">
+        <div class="card">
+            <div class="card-overlay"></div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJMK_ibWy_M3LyKdv8IsRAh3KVWdh0Jc6okA&s" alt="Gut Microbiota">
+            <h3>Gut Microbiota</h3>
+            <p>
+                - Aid digestion and nutrient absorption.<br>
+                - Produce vitamins (e.g., B12, K).<br>
+                - Strengthen immune function.<br>
+                - Protect against pathogens.
+            </p>
+        </div>
+        <div class="card">
+            <div class="card-overlay"></div>
+            <img src="https://www.snexplores.org/wp-content/uploads/2019/11/860_main_new_archaea_skin.png" alt="Skin Microbiota">
+            <h3>Skin Microbiota</h3>
+            <p>
+                - Protect against harmful microbes.<br>
+                - Support skin barrier function.<br>
+                - Aid wound healing.<br>
+                - Influence immune responses.
+            </p>
+        </div>
+        <div class="card">
+            <div class="card-overlay"></div>
+            <img src="https://media.licdn.com/dms/image/D5612AQFdFfRjnc1mJA/article-cover_image-shrink_720_1280/0/1720760961960?e=2147483647&v=beta&t=behbZmvJbhWBLXOi5R7ZDolmVvzmYf-f12vCIlmN258" alt="Oral Microbiota">
+            <h3>Oral Microbiota</h3>
+            <p>
+                - Maintain oral health.<br>
+                - Prevent tooth decay.<br>
+                - Protect against oral diseases.<br>
+                - Aid digestion (saliva enzymes).
+            </p>
+        </div>
+    </div>
+    
+</section>
+
+
+
+<section id="harmful" class="content-section">
+    <h2>Harmful Microbes</h2>
+    <p>Microbes that negatively impact human health include:</p>
+    <div class="cards">
+        <div class="card">
+            <div class="card-overlay"></div>
+            <img src="https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production+Library/17-01-2020-Mycobacterium-TB.jpg/image1170x530cropped.jpg" alt="Pathogenic Bacteria">
+            <h3>Pathogenic Bacteria</h3>
+            <p>
+                - Cause infections (e.g., tuberculosis, strep throat).<br>
+                - Produce toxins damaging to host cells.<br>
+                - Trigger immune responses leading to inflammation.<br>
+                - Contribute to chronic diseases.
+            </p>
+        </div>
+        <div class="card">
+            <div class="card-overlay"></div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyezy7S7HPpjFkcTdNQLdukmFyrd-bJN8Vew&s" alt="Viruses">
+            <h3>Viruses</h3>
+            <p>
+                - Cause viral infections (e.g., flu, COVID-19).<br>
+                - Hijack host cell machinery to replicate.<br>
+                - Trigger immune responses.<br>
+                - Can lead to chronic infections.
+            </p>
+        </div>
+        <div class="card">
+            <div class="card-overlay"></div>
+            <img src="https://media.istockphoto.com/id/1391087111/photo/microscopic-fungi-microsporum-canis-scientific-3d-illustration.jpg?s=612x612&w=0&k=20&c=_yr-Tfcnw_cUyzF4COCBX4TWR9_DwicneKdnA15--O0=" alt="Fungi">
+            <h3>Fungi</h3>
+            <p>
+                - Cause fungal infections (e.g., athlete's foot, ringworm).<br>
+                - Produce allergens.<br>
+                - Can be opportunistic pathogens.<br>
+                - Affect respiratory health.
+            </p>
+        </div>
+    </div>
+    
+</section>
+
+
+<section id="probiotics" class="content-section">
+    <h2>Probiotics</h2>
+    <p>Live beneficial bacteria that provide health benefits when consumed. Examples include:</p>
+    <div class="cards">
+        <div class="card">
+            <div class="card-overlay"></div>
+            <img src="https://www.vinatura.store/cdn/shop/articles/Lactobacillus_Plantarum_Benefits_2.jpg?v=1701537566" alt="Lactobacillus">
+            <h3>Lactobacillus</h3>
+            <p>
+                - Common in yogurt and fermented foods.<br>
+                - Helps in digestion.<br>
+                - Supports immune function.<br>
+                - Reduces symptoms of IBS.
+            </p>
+        </div>
+        <div class="card">
+            <div class="card-overlay"></div>
+            <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/2-bifidobacterium-animalis-bacteria-dennis-kunkel-microscopyscience-photo-library.jpg" alt="Bifidobacterium">
+            <h3>Bifidobacterium</h3>
+            <p>
+                - Found in the intestines.<br>
+                - Aids in digestion.<br>
+                - Supports immune function.<br>
+                - Reduces symptoms of IBS.
+            </p>
+        </div>
+    </div>
+    
+</section>
+
+
+
+<section id="vaccines" class="content-section">
+    <h2>Vaccines</h2>
+    <p>Vaccines are biological preparations that provide immunity against specific diseases. Examples include:</p>
+    <div class="cards">
+        <div class="card">
+            <div class="card-overlay"></div>
+            <img src="https://wp.inews.co.uk/wp-content/uploads/2022/06/SEI_111332545.jpg?resize=300,225&strip=all&quality=90" alt="Polio Vaccine">
+            <h3>Polio Vaccine</h3>
+            <p>
+                - Uses inactivated poliovirus.<br>
+                - Prevents poliomyelitis.<br>
+                - Administered orally or via injection.<br>
+                - Highly effective.
+            </p>
+        </div>
+        <div class="card">
+            <div class="card-overlay"></div>
+            <img src="https://media.sciencephoto.com/c0/21/74/70/c0217470-800px-wm.jpg" alt="MMR Vaccine">
+            <h3>MMR Vaccine</h3>
+            <p>
+                - Protects against measles, mumps, and rubella.<br>
+                - Uses live attenuated viruses.<br>
+                - Administered via injection.<br>
+                - Routine childhood vaccine.
+            </p>
+        </div>
+    </div>
+    
+</section>
+
+
+
+<section id="bioremediation" class="content-section">
+    <h2>Bioremediation</h2>
+    <p>Use of microbes to clean up environmental contaminants. Techniques include:</p>
+    <div class="cards">
+        <div class="card">
+            <div class="card-overlay"></div>
+            <img src="https://img.freepik.com/premium-photo/waterfall-forest_51126-1.jpg" alt="Ex Situ Bioremediation">
+            <h3>Ex Situ Bioremediation</h3>
+            <p>
+                - Contaminants removed from site.<br>
+                - Treated in a controlled environment.<br>
+                - Examples: biopiles, land farming.<br>
+                - Effective for controlled remediation.
+            </p>
+        </div>
+        <div class="card">
+            <div class="card-overlay"></div>
+            <img src="https://media.licdn.com/dms/image/C5612AQHbB8qx0JuaAA/article-cover_image-shrink_720_1280/0/1586023482448?e=2147483647&v=beta&t=vKvbNZp7KvlUqLBMmtDREEFoWIQ_lIPSwmD_jEKJBpM" alt="In Situ Bioremediation">
+            <h3>In Situ Bioremediation</h3>
+            <p>
+                - Treatment at the contamination site.<br>
+                - Less disruptive to the environment.<br>
+                - Examples: bioventing, biosparging.<br>
+                - Suitable for groundwater and soil.
+            </p>
+        </div>
+        
+    </div>
+    <!-- <div class="gallery">
+        <div><img src="images/bioremediation_process.jpg" alt="Bioremediation Process"></div>
+        <div><img src="images/bioremediation_site.jpg" alt="Bioremediation Site"></div>
+    </div> -->
+</section>
+
+
+<!-- Thank you -->
+<section id="thanks" class="content-section">
+    <h2>THANK YOU</h2>
+    <p>Thank you for visiting <br> Marthoma College of Science and Technology, Ayur</p>
+	<img src="images/qrcode.svg" alt="Qr code" class="thanku">
+    <div class="cards">
+        
+        
+        
+    </div>
+</section>
+<!-- Thank you -->
+    
+
+    <section id="contact" class="content-section">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Human Microbe Interaction. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
