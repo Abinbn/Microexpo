@@ -112,7 +112,7 @@ nav a:hover {
     border-radius: 10px;
     /* transition: transform 0.3s; */
     transition: 0.6s cubic-bezier(0.87,-1.38,0.03,1.54);
-    border: 1px solid #cccccc1a;
+    
 }
 
 .card img {
